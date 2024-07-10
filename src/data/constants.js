@@ -10,6 +10,7 @@ import usfinternational from '../images/usfinterWeb.png';
 
 
 
+
 export const Bio = {
   name: "Benjamin Belloeil",
   roles: [
