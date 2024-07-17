@@ -7,6 +7,8 @@ import SenioritasLogo from '../images/SenioritasLogo.png';
 import TECLogo from '../images/TECLogo.png';
 import todoWeb from '../images/todoWeb.png';
 import usfinternational from '../images/usfinterWeb.png';
+import loginpage from '../images/LoginPage.png';
+import rockwell from '../images/Rockwell.png';
 
 
 
@@ -22,7 +24,7 @@ export const Bio = {
   description:
     "As a student aspiring to become a software engineer, I'm driven by a passion for learning and a thirst for tackling new coding challenges. I'm dedicated to consistently delivering high-quality code and solutions. With a growth mindset and a positive attitude, I'm excited to contribute meaningfully to the world of software development and achieve success in this field.",
   github: "https://github.com/benjaminbelloeil",
-  resume: "https://drive.google.com/file/d/1p16iUnoYFucP3J4TaHJnd7jmKxaQbOYI/view?usp=sharing",
+  resume: "/BenjaminBelloeilResume.pdf",
   linkedin: "https://www.linkedin.com/in/benjamin-belloeil-15396b254/",
   insta: "https://www.instagram.com/benjaminbelloeil_/",
 };
@@ -309,7 +311,7 @@ export const projects = [
     description:
       "This login page, crafted with Tailwind CSS and React JS, offers a sleek and modern interface for user authentication. Seamlessly integrating Tailwind's utility-first approach with React's component-based structure, it provides a smooth user experience.",
     image:
-      "https://private-user-images.githubusercontent.com/113941255/323857287-9d3b48ea-ef0a-4a9a-8478-72b67e47c987.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ5NzYwNjksIm5iZiI6MTcxNDk3NTc2OSwicGF0aCI6Ii8xMTM5NDEyNTUvMzIzODU3Mjg3LTlkM2I0OGVhLWVmMGEtNGE5YS04NDc4LTcyYjY3ZTQ3Yzk4Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwNlQwNjA5MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZmY4MGZjOTVhMTFiZDkwMTQ0M2E3YzA3NzY5ZThlNmM4N2Y5YjQ5ZmJmYWY3MjBkYWU0OWY0Zjk4MGFjMDgxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.pzg-6Y_3SZu6LLZqMQKDf8FLsseabb-CW6banvA5OEU",
+      loginpage,
     tags: [
       "React Js", 
       "JavaScript", 
@@ -346,9 +348,9 @@ export const projects = [
     description:
       "Sistema de software basado en modelo cliente-servidor, implementado en web con capacidad de conexión a una base de datos relacional. Con visualización de indicadores de control basada en técnicas de videojuegos (tableros 2D, 3D, múltiples cámaras) para el apoyo a la toma de decisiones en la solución de un problema específico de una empresa (socio formador).",
     image:
-      "https://private-user-images.githubusercontent.com/113941255/327661338-5fc84bde-fd3e-4204-90cf-6418d3543f25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ5NzY5MTYsIm5iZiI6MTcxNDk3NjYxNiwicGF0aCI6Ii8xMTM5NDEyNTUvMzI3NjYxMzM4LTVmYzg0YmRlLWZkM2UtNDIwNC05MGNmLTY0MThkMzU0M2YyNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwNlQwNjIzMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MGM3OWZmOGRkMzYyNWE1NGIyNTZmMTRiZTE5NDNlMGE1YzkwMjI2NDUwMDZhNmYxMWI3N2VhN2E1ODNmYzU2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-vWF5lm2WIDnk4_Jr4VHaKnTWlw5S9aqLE9EzGu1ovw",
-    tags: ["Next js", "JavaScript", "Tailwindcss", "CSS", "Express Js"],
-    category: "machine learning",
+      rockwell,
+    tags: ["Next js", "JavaScript", "Tailwindcss", "HTML", "Auth Js"],
+    category: "",
     github: "https://github.com/benjaminbelloeil/RockwellWeb",
     webapp: "",
   },
